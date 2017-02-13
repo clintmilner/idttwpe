@@ -3,15 +3,29 @@
 <head>
     <meta charset="utf-8">
     <title>Is Donald Trump the Worst President Ever?</title>
-    <meta name="keywords" content="donald trump, potus, worst, horrible, deplorable">
+    <meta name="keywords" content="donald trump, potus, worst, horrible, deplorable, executive orders, fake news, alternative facts">
     <meta name="description" content="Is Donald Trump the Worst President Ever? Get the Facts.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <meta property="og:title" content="Is Donald Trump the Worst President Ever?">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://isdonaldtrumptheworstpresidentever.com">
     <meta property="og:site_name" content="Is Donald Trump the Worst President Ever?">
-    <meta property="og:description" content="Is Donald Trump the Worst President Ever? Get the Facts.">
+
+    <!-- for Google -->
+    <meta name="description" content="Is Donald Trump the Worst President Ever? Get the Facts." />
+    <meta name="keywords" content="donald trump, potus, worst, horrible, deplorable, executive orders, fake news, alternative facts" />
+    <meta name="application-name" content="Is Donald Trump the Worst President Ever?" />
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="Is Donald Trump the Worst President Ever?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://isdonaldtrumptheworstpresidentever.com/img/dump_trump_thumb.jpg" />
+    <meta property="og:url" content="https://isdonaldtrumptheworstpresidentever.com" />
+    <meta property="og:description" content="Is Donald Trump the Worst President Ever? Get the Facts." />
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Is Donald Trump the Worst President Ever?" />
+    <meta name="twitter:description" content="Is Donald Trump the Worst President Ever? Get the Facts." />
+    <meta name="twitter:image" content="https://isdonaldtrumptheworstpresidentever.com/img/dump_trump_thumb.jpg" />
 
     <!-- Styles -->
     <link href='//fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
@@ -22,12 +36,17 @@
 
 <body>
 <header>
-    <div class="container">
-        <div class="row header-info">
+    <div class="container-fluid">
+        <div class="row">
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <h1 class="fadeIn">Is Donald Trump the Worst President Ever?</h1>
+                <h1>Is Donald Trump the Worst President Ever?</h1>
                 <br />
-                <h2 class="fadeIn">Yes.</h2>
+                <h2>Yes.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="eo"></div>
             </div>
         </div>
     </div>
@@ -50,5 +69,8 @@
     ga('create', 'UA-90860931-1', 'auto');
     ga('send', 'pageview');
 </script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="//code.highcharts.com/highcharts.js"></script>
+<script src="js/dump_trump.js"></script>
 </body>
 </html>
